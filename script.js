@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const supportBtn = document.getElementById('supportBtn');
     const hiddenMessage = document.getElementById('hiddenMessage');
 
-    // Despliegue suave del mensaje adicional
+    // Despliegue suave del mensaje adicional al hacer clic o tap
     supportBtn.addEventListener('click', () => {
         hiddenMessage.classList.toggle('show');
         
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Pequeño efecto táctil sutil para pantallas móviles en la tarjeta
+    // Ajuste visual suave para la interacción táctil en dispositivos móviles
     const card = document.querySelector('.card-container');
     card.addEventListener('touchstart', () => {
         card.style.borderColor = 'rgba(76, 201, 240, 0.4)';
