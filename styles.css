@@ -28,7 +28,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Fondo decorativo sutil estilo galaxia/ Stitch */
+/* Fondo sutil tipo espacio / galaxia Stitch */
 .stars-bg {
     position: fixed;
     top: 0;
@@ -53,7 +53,7 @@ body {
     animation: fadeIn 1.2s ease-in-out;
 }
 
-/* Integración de Canva Header */
+/* Integración del banner exportado de Canva */
 .canva-header {
     width: 100%;
     text-align: center;
@@ -147,7 +147,7 @@ body {
 }
 
 .hidden-message.show {
-    max-height: 100px;
+    max-height: 220px;
     opacity: 1;
     margin-top: 18px;
 }
@@ -156,6 +156,7 @@ body {
     font-size: 0.9rem;
     color: var(--stitch-blue-light);
     font-style: italic;
+    text-align: center;
 }
 
 /* Animaciones */
@@ -170,7 +171,7 @@ body {
     }
 }
 
-/* Adaptación para dispositivos móviles */
+/* Adaptación para pantallas móviles */
 @media (max-width: 480px) {
     .card-container {
         padding: 20px 16px;
